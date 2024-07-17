@@ -162,7 +162,7 @@ export default function TabsSection() {
                     ))}
                 </TabsContainer>
             </div>
-            <Image src={tabsBtm} alt='Tabs Bottom' className="tabs-btm absolute bottom-0 right-0 z-[-1]" />
+            <Image src={tabsBtm} alt='Tabs Bottom' className="tabs-btm w-full absolute bottom-0 right-0 z-[-1]" />
         </section>
     );
 }

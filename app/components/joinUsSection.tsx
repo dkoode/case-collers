@@ -22,7 +22,7 @@ export default function JoinUsSection() {
                 </div>
                 <div className="relative">
                     <Image src={videoImg} alt="video-img" className="z-30 custom-shadow rounded-[18px] cursor-pointer"/>
-                    <div className="absolute z-40 w-[144px] h-[144px] left-0 right-0 top-0 bottom-0 m-auto rounded-full bg-[#121619BF] flex items-center justify-center">
+                    <div className="absolute z-40 w-[144px] h-[144px] left-0 right-0 top-0 bottom-[-36px] m-auto rounded-full bg-[#121619BF] flex items-center justify-center">
                         <Image src={play} alt="play" className="cursor-pointer relative right-[-5px]"/>
                     </div>
                     <div className="custom-arrowc w-[411px] h-[135px] lg:w-[666px] lg:h-[217px] z-10 bg-[#FDE68A] absolute -rotate-45  right-[-14px] lg:right-[unset] lg:left-[-95px] bottom-[30px] lg:top-0 lg:bottom-0 my-auto"></div>

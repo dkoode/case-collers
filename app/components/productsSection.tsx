@@ -60,7 +60,7 @@ export default function ProductsSection() {
 
                 <ProductBox img={products[2].image} id={products[2].id} title={products[2].title} desc={products[2].desc} alt={products[2].image_alt}>
                     <div className="absolute hidden md:block opacity-75 w-[232px] h-[232px] rounded-[50px] bg-[#15803D] right-[-43px] top-[33px] -z-10"></div>
-                    <div className="absolute opacity-75 w-[151px] h-[151px] md:w-[202px] md:h-[202px] rounded-[30px] bg-[#A21CAF] left-[-16px] top-[53px] md:right-[96px] md:bottom-[-24px] -z-10"></div>
+                    <div className="absolute opacity-75 w-[151px] h-[151px] md:w-[202px] md:h-[202px] rounded-[30px] bg-[#A21CAF] md:top-[unset] md:left-[unset] left-[-16px] top-[53px] md:right-[96px] md:bottom-[-24px] -z-10"></div>
                 </ProductBox>
 
             </div>

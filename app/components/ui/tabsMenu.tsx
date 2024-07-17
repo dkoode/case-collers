@@ -14,7 +14,7 @@ interface TabsMenuItemProps {
 export default function TabsMenuItem({ id, title, icon, width, height, isActive, onClick }: TabsMenuItemProps) {
     return (
         <button 
-            className={`p-4 rounded-[8px] flex items-center justify-between min-w-[240px] md:min-w-[256px] bg-white ${isActive ? 'active-tab' : ''}`} 
+            className={`p-4 rounded-[8px] flex items-center justify-between min-w-[240px] md:min-w-[256px] bg-transparent md:bg-white ${isActive ? 'active-tab' : ''}`} 
             onClick={onClick}
         >
             <div className="flex items-center">
