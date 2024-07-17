@@ -7,7 +7,7 @@ export default function ProductBox({children, img, title, desc, alt, id}:
     return(
         <div className="w-full md:w-1/3 relative product-shadow z-10">
             <div className=" border-[1px] border-[#0F172A] rounded-[10px] overflow-hidden bg-[#0F172A]">
-                <Image src={img} alt={alt} width={394} height={220}/>
+                <Image className="object-cover w-full" src={img} alt={alt} width={394} height={220}/>
                 <div className="p-8 pb-0 flex flex-col gap-y-4">
                     <h6 className="leading-[26px] text-[24px] text-white font-bold">{title}</h6>
                     <p className="mb-0 font-normal text-white text-[18px]">

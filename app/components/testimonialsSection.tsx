@@ -154,9 +154,8 @@ export default function TestimonialsSection() {
                 <div className="embla__viewport" ref={emblaRef}>
                     <div className="embla__container">
                         {testimonials.map(testimonial => (
-                            <div className="embla__slide" key={testimonial.id }>
+                            <div  className="embla__slide" key={testimonial.id }>
                                 <CarouselItem
-                                key={ testimonial.id }
                                 brandImg={testimonial.img }
                                 desc={ testimonial.desc }
                                 personImg={ testimonial.person_img }

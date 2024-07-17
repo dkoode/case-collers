@@ -123,9 +123,9 @@ export default function TabsSection() {
                     <h2 className="font-bold text-[32px] leading-[35px] md:text-[56px] md:leading-[62px] text-center md:text-left text-[#0F172A]">
                         Grow your collection
                     </h2>
-                    <p className="mb-0 font-normal text-[#0F172A] text-center md:text-left text-base md:text-[18px] md:leading-[29px] ">
+                    <p className="mb-0 font-normal text-[#0F172A] max-w-[1200px] text-center md:text-left text-base md:text-[18px] md:leading-[29px] ">
                         Enim neque massa porta adipiscing elit. Sem libero id faucibus nibh amet dictum pellentesque sed. Eu non turpis risus odio sapien, fames sit rhoncus.
-                        <br />Nec magna sed interdum sit purus tellus. Et volutpat proin neque placerat at bibendum quam tellus.
+                        Nec magna sed interdum sit purus tellus. Et volutpat proin neque placerat at bibendum quam tellus.
                     </p>
                 </div>
                 <TabsContainer>

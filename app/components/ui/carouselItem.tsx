@@ -14,7 +14,7 @@ interface CarouselItemProps {
 }
 export default function CarouselItem({brandImg, desc, personImg, personName, personTitle, imgWidth, imgHeight} : CarouselItemProps) {
     return(
-        <div className="p-6 md:p-8 card-shadow rounded-[20px] bg-white">
+        <div className="p-6 md:p-8 min-h-[296px] md:min-h-[430px] card-shadow rounded-[20px] bg-white">
             <div className="py-4">
                 <Image width={imgWidth} height={imgHeight} src={brandImg} alt="Brand logo"/>
             </div>
