@@ -2,7 +2,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { useState } from "react";
-import logo from '../../public/images/Collers.webp';
+import logo from '../../public/images/Collers.svg';
 import hamburgerIcon from '../../public/images/icons/hamburger.svg';
 import close from '../../public/images/icons/close.svg'
 interface MenuLink {
